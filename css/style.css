@@ -1,0 +1,12 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.container-card {
+    width: calc(100%/5);
+    height: 80px;
+    background-color: aqua;
+    border: 1px solid black;
+}

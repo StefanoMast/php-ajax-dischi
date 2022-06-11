@@ -1,1 +1,0 @@
-<h2>questa è la sezione BLOG</h2>

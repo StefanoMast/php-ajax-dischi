@@ -9,16 +9,12 @@
 
 </head>
 <body>
-    <?php
-    include 'header.php';
-    include 'database.php';
-
-    include 'home.php';
-
-
-
-    include 'blog.php';
+    <?php 
+        require __DIR__ . "/partials/database.php";
+        include 'header.php';
+        include 'home.php'
     ?>
+
     
 </body>
 </html>

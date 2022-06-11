@@ -1,12 +1,14 @@
 <main>
     <section class="container">
-        <div class="container-card">
-            <?php foreach($database as $database) { ?>
-                <h2><?php echo $database["poster"]; ?></h2>
-                <h2><?php echo $database["title"]; ?></h2>
-                <h3><?php echo $database["author"]; ?></h3>
-                <h4><?php echo $database["year"]; ?></h4>
+        
+            <?php foreach($database as $element) { ?>
+                <div class="container-card">
+                    <img src="<?php echo $element["poster"]; ?>" alt="<?php echo $element["title"] ?>" />
+                    <h2><?php echo $element["title"]; ?></h2>
+                    <h3><?php echo $element["author"]; ?></h3>
+                    <h4><?php echo $element["year"]; ?></h4>
+                </div>
             <?php } ?>
-        </div>
+        
     </section>
 </main>
